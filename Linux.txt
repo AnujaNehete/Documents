@@ -1,0 +1,22 @@
+Group manangement in Linux
+  
+View all groups 	
+  cat /etc/group
+
+View all groups to which user belongs	
+  groups <<username>>
+
+Change the primary group of user 	
+  usermod -g <<primarygroupname>> <<username>>
+
+
+To assign secondary groups to a user :	  
+  usermod -a -G <<secondarygroupname>> <<username>>
+-a keeps already existing secondary groups intact otherwise they'll be removed
+
+Delete user from a group	
+	gpasswd -d <<user>> <<group>>
+	
+	
+	
+	
