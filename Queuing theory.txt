@@ -1,0 +1,33 @@
+Waiting is waste of time 
+Reducing this helps reduce cost improve performance
+
+
+
+Queuing theory focuses on how waiting lines behave.
+Queuing theory is based on probability
+Queuing theory views every system as interconnected set of servers and queues through which the customer flows. Once you are aware of queuing framework you 
+Can decompose any sytem into network of servers and queues and analyze them individually or seperately
+
+Queuing systems are denoted by Kendall's diagram that have 3 symbols 
+- how arrival rates behave 
+- how service times behave 
+- how many servers ?
+- Special parameters
+they relate to whether
+ the system has ?nite capacity and might reject arrivals
+,how big the population of customers is
+,and whether the queue does anything special to select which customer gets service next.
+
+system description
+M/M/1 - Markovian arrival , markovian service times , 1 server
+M/M/m - Markovian arrival , markovian service times , m servers
+M/G/1 - Markovian arrival , normal service times , 1 server
+M/G/m - Markovian arrival , normal service times , 1 server
+
+
+Mostly real life situations result in independent and randomly spaced arrivals.
+Real life service times are exponentially distributed with most jobs completing pretty quickly,occassional outliers
+taking longer.
+
+The M/M/m and exponential distribution is equivalent to Normal distrbution in statistics(shows up everywhere and analysis is easy).
+
