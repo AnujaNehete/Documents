@@ -1,5 +1,7 @@
 # Table of contents
 
 * [Databases](README.md)
-* [Untitled](untitled.md)
+* [Data Sources](untitled.md)
+* [Kerberos](kerberos.md)
+* [Untitled](untitled-2.md)
 
